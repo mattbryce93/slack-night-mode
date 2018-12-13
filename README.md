@@ -47,9 +47,11 @@ Replaces the messaging font stack with a monospace font stack.
 
 ### Desktop application
 
-To change to dark mode on the Slack Desktop applition, edit the following files:\n
-Linux: /usr/lib/slack/resources/app.asar.unpacked/src/static/ssb-interop.js\n
-Windows: C:/Program_Files(x64)/slack/resources/app.asar.unpacked/src/static/ssb-interop.js\n
+To change to dark mode on the Slack Desktop applition, edit the following files:
+
+Linux: /usr/lib/slack/resources/app.asar.unpacked/src/static/ssb-interop.js
+
+Windows: C:/Program_Files(x64)/slack/resources/app.asar.unpacked/src/static/ssb-interop.js
 
 With the following code:
 
@@ -64,5 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-In order to get the sidebar theme looking consistent I use the following sidebar colour settings:\n
+In order to get the sidebar theme looking consistent I use the following sidebar colour settings:
+
 '#333333,#222222,#0074A2,#FFFFFF,#111111,#FFFFFF,#7AD03A,#D54E21'
